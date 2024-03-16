@@ -1,0 +1,46 @@
+/*********************
+-- Table of contents
+
+- Custom variables 
+- Bootstrap functions
+- Bootstrap variables
+- Bootstrap mixins
+- Custom map amends
+- Custom utilities
+- Bootstrap main import
+
+***********************
+*/
+
+
+// Import our variable overrides.
+// Go here to set custom values for Bootstrap vars
+
+// Import Bootstrap functions, vars and mixins
+// @import "~bootstrap/scss/functions";
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+// Import our map amends
+// Go here to run any Sass map amends on Bootstrap Sass maps
+@import "./abstracts/map-amends";
+@import './abstracts/variables';
+// Import our utility overrides
+// Go here to amend or set custom utilities using the Bootstrap API
+// @import './utilities/bootstrap-api-utilities';
+// @import '../../node_modules/bootstrap/';
+
+// Bootstrap main import
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --bs-body-font-family:'Montserrat', sans-serif;
+    
+}   
+
+button {
+    --bs-btn-font-weight:600;
+}

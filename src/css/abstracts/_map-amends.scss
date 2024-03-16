@@ -1,0 +1,15 @@
+// Create your own map
+$custom-colors: (
+  "orange": #ff5634
+);
+
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+
+
+

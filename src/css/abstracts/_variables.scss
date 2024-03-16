@@ -1,0 +1,26 @@
+// Example override Bootstrap variable for button
+
+$orange:#ff5634;
+$btn-padding-y: 18px;
+$btn-padding-x: 24px;
+$btn-font-weight :500;
+
+
+// font family
+
+// $monte-font : 'Montserrat', sans-serif;
+
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1270px,
+  xxl: 1320px
+);
+// scss-docs-end container-max-widths
+
+
+
+
